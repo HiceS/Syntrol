@@ -6,5 +6,5 @@
 - .Net Standard
 - ML Integration
 
-[Getting Started](#/README.md)
+[Getting Started](#Syntrol)
 [Synthesis](https://synthesis.autodesk.com/)
