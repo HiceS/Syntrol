@@ -17,7 +17,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <Optimize>false</Optimize>
-    <DocumentationFile>C:\Users\shawn\Documents\EmulatorAPI\docs\api\Syntrol.xml</DocumentationFile>
+    <DocumentationFile>\docs\api\Syntrol.xml</DocumentationFile>
     <OutputPath></OutputPath>
   </PropertyGroup>
 
