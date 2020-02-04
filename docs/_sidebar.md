@@ -1,2 +1,2 @@
 * [Home](/)
-* [Planning](en-us/planning.md "Future Planning")
+* [Planning](/en-us/planning.md "Future Planning")
