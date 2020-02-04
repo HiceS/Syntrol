@@ -1,3 +1,3 @@
-* [Home](/)
+* [Home](/readme.md)
 * [Planning](/roadmap/readme.md "Future Planning")
 * [API](/api/readme.md "API")
