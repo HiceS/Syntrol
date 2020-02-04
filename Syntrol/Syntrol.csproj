@@ -2,6 +2,34 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company>Autodesk</Company>
+    <Authors>Synthesis</Authors>
+    <Product>Autodesk Synthesis</Product>
+    <Copyright>Autodesk inc.</Copyright>
+    <PackageProjectUrl>https://synthesis.autodesk.com/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/HiceS/EmulatorAPI</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <ApplicationIcon />
+    <Win32Resource />
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Protos\robot.proto" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.11.3" />
+    <PackageReference Include="Grpc" Version="2.26.0" />
+    <PackageReference Include="Grpc.Core" Version="2.26.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.26.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include="Protos\robot.proto" Access="Public" />
+  </ItemGroup>
 
 </Project>
