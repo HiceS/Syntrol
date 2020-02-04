@@ -25,11 +25,11 @@
     <PackageReference Include="Google.Protobuf" Version="3.11.3" />
     <PackageReference Include="Grpc" Version="2.26.0" />
     <PackageReference Include="Grpc.Core" Version="2.26.0" />
-    <PackageReference Include="Grpc.Tools" Version="2.26.0">
+    <PackageReference Include="Grpc.Tools" Version="2.26.0" developmentDependency="true">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Vsxmd" Version="1.4.2">
+    <PackageReference Include="Vsxmd" Version="1.4.2" developmentDependency="true">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
