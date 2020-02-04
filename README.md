@@ -1,4 +1,4 @@
-# Syntrol [![Build Status](https://travis-ci.org/HiceS/EmulatorAPI.svg?branch=master)](https://travis-ci.org/HiceS/EmulatorAPI)
+# Syntrol [![Build Status](https://travis-ci.org/HiceS/Syntrol.svg?branch=master)](https://travis-ci.org/HiceS/Syntrol)
 API for robot emulation, just the foundation.
 
 Will be built originally for .net to support the new ML.net libs.
