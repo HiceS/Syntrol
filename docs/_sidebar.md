@@ -1,2 +1,3 @@
 * [Home](/)
-* [Planning](/en-us/planning.md "Future Planning")
+* [Planning](/roadmap/readme.md "Future Planning")
+* [API](/api/readme.md "API")
