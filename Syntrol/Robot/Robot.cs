@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Syntrol.Internal
+namespace Syntrol.Robot
 {
-    class Internal
+    class Robot
     {
     }
 }

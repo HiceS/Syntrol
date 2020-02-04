@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Syntrol.Peripherals
+namespace Syntrol.World
 {
-    class Peripherals
+    public class World
     {
+        
     }
 }

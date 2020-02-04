@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Syntrol.Motor
+namespace Syntrol.Robot.Properties
 {
-    class Motor
+    class Properties
     {
+
     }
 }

@@ -2,7 +2,7 @@
 
 namespace Syntrol
 {
-    public class Class1
+    public class Syntrol
     {
     }
 }

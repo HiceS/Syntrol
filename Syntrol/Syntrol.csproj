@@ -15,10 +15,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Protos\robot.proto" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Google.Protobuf" Version="3.11.3" />
     <PackageReference Include="Grpc" Version="2.26.0" />
     <PackageReference Include="Grpc.Core" Version="2.26.0" />
@@ -26,10 +22,6 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Protobuf Include="Protos\robot.proto" Access="Public" />
   </ItemGroup>
 
 </Project>
