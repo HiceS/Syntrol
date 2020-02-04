@@ -1,9 +1,9 @@
 language: csharp
-solution: Syntrol.sln
-
-jobs:
-  include:
-    - dotnet: 2.1.502
-      mono: none
-      env: DOTNETCORE=2  # optional, can be used to take different code paths in your script
-    - mono: latest
+solution: "./Syntrol.sln"
+include:
+- os: linux
+dotnet: 3.0.100
+mono: none
+script:
+  - dotnet restore ./Syntrol.sln
+  - dotnet build ./Syntrol.sln
