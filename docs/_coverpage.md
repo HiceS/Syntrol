@@ -1,4 +1,4 @@
-# docsify <small>3.5</small>
+# Syntrol <small>Autodesk Synthesis</small>
 
 > A foundation for creating a better robotics API
 
@@ -6,5 +6,5 @@
 - .Net Standard
 - ML Integration
 
-[GitHub](https://github.com/HiceS/EmulatorAPI)
+[GitHub](https://github.com/HiceS/Syntrol)
 [Synthesis](https://synthesis.autodesk.com/)
