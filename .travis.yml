@@ -4,6 +4,6 @@ mono: none
 dist: xenial
 dotnet: 3.1
 install:
-  - dotnet restore --verbosity detailed
+  - dotnet restore
 script:
   - dotnet build -c Release -v detailed

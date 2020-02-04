@@ -7,6 +7,12 @@ Will be built originally for .net to support the new ML.net libs.
 
 ## Docs
 
-Docs coming soon to show the layout of the API
+To generate docs you need to manually add the nuget package vsxmd
+
+https://github.com/lijunle/Vsxmd
+
+` dotnet add package Vsxmd -n ` -n is optionally no-restore
+
+This does not work with travis for some reason
 
 Docs should be accessible at https://hices.github.io/Syntrol/
