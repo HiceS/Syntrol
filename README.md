@@ -1,9 +1,9 @@
-# EmulatorAPI
+# EmulatorAPI [![Build Status](https://travis-ci.org/HiceS/EmulatorAPI.svg?branch=master)](https://travis-ci.org/HiceS/EmulatorAPI)
 API for robot emulation, just the foundation.
 
 Will be built originally for .net to support the new ML.net libs.
 
-[![Build Status](https://travis-ci.org/HiceS/EmulatorAPI.svg?branch=master)](https://travis-ci.org/HiceS/EmulatorAPI)
+
 
 ## Docs
 
