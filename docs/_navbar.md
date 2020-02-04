@@ -1,3 +1,3 @@
 * [Home](/)
 * [🗺️](/roadmap/README.md)
-* [📗](#Docs)
+* [📗](../Syntrol/Syntrol.md)

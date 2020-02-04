@@ -9,5 +9,6 @@ namespace Syntrol.Robot
     /// </summary>
     class State
     {
+
     }
 }

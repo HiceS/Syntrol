@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Company>Autodesk</Company>
     <Authors>Synthesis</Authors>
@@ -14,11 +14,21 @@
     <Win32Resource />
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <Optimize>false</Optimize>
+    <DocumentationFile>C:\Users\shawn\Documents\EmulatorAPI\Syntrol\Syntrol.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Google.Protobuf" Version="3.11.3" />
     <PackageReference Include="Grpc" Version="2.26.0" />
     <PackageReference Include="Grpc.Core" Version="2.26.0" />
     <PackageReference Include="Grpc.Tools" Version="2.26.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Vsxmd" Version="1.4.2">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>

@@ -6,5 +6,6 @@ namespace Syntrol.Robot.Controller
 {
     class Pneumatic
     {
+
     }
 }

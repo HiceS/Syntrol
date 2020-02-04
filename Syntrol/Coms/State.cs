@@ -4,9 +4,12 @@ using System.Text;
 
 namespace Syntrol.Communication
 {
-    public static class State
+    internal static class State
     {
-        public static ComStateEnum ComStatus { get; set; }
+        /// <summary>
+        /// Has the connection state for the API
+        /// </summary>
+        internal static ComStateEnum ComStatus { get; set; }
     }
 
     /// <summary>
@@ -14,9 +17,21 @@ namespace Syntrol.Communication
     /// </summary>
     public enum ComStateEnum
     {
+        /// <summary>
+        /// Currently Connected
+        /// </summary>
         Connected,
+        /// <summary>
+        /// Not Connected to Simulator
+        /// </summary>
         Disconnected,
+        /// <summary>
+        /// Cannot make a new Connection
+        /// </summary>
         Unavailable,
+        /// <summary>
+        /// Emergency Stopped
+        /// </summary>
         Emergency
     }
 }

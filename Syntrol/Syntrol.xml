@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Syntrol</name>
+    </assembly>
+    <members>
+        <member name="T:Syntrol.Coms.Com">
+            <summary>
+            Class to send a recieve data from grpc to product
+            </summary>
+        </member>
+        <member name="P:Syntrol.Communication.State.ComStatus">
+            <summary>
+            Has the connection state for the API
+            </summary>
+        </member>
+        <member name="T:Syntrol.Communication.ComStateEnum">
+            <summary>
+            Enum of possible communication states
+            </summary>
+        </member>
+        <member name="F:Syntrol.Communication.ComStateEnum.Connected">
+            <summary>
+            Currently Connected
+            </summary>
+        </member>
+        <member name="F:Syntrol.Communication.ComStateEnum.Disconnected">
+            <summary>
+            Not Connected to Simulator
+            </summary>
+        </member>
+        <member name="F:Syntrol.Communication.ComStateEnum.Unavailable">
+            <summary>
+            Cannot make a new Connection
+            </summary>
+        </member>
+        <member name="F:Syntrol.Communication.ComStateEnum.Emergency">
+            <summary>
+            Emergency Stopped
+            </summary>
+        </member>
+        <member name="T:Syntrol.Exceptions.ComException">
+            <summary>
+            Exception for checking current connection status
+            </summary>
+        </member>
+        <member name="M:Syntrol.Exceptions.ComException.#ctor">
+            <summary>
+            Base exception
+            </summary>
+        </member>
+        <member name="M:Syntrol.Exceptions.ComException.#ctor(System.String,System.Exception)">
+            <summary>
+            Com Exception that contains a reference to the frame
+            </summary>
+            <param name="message"></param>
+            <param name="inner"></param>
+        </member>
+        <member name="T:Syntrol.Robot.ComObject">
+            <summary>
+            Abstract base class for reading and writing from Coms
+            </summary>
+        </member>
+        <member name="T:Syntrol.Robot.Controller.Motor">
+            <summary>
+            Base Motor Object
+            </summary>
+            <remarks>
+            abstractable to create new types of motors with default properties
+            </remarks>
+        </member>
+        <member name="P:Syntrol.Robot.Controller.Motor.Torque">
+            <summary>
+            Torque output of motorController
+            </summary>
+            <remarks>
+            This should be a curve ideally, not sure how to represent that (maybe a nested function or datatype that understands polynomials)
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="P:Syntrol.Robot.Controller.Motor.Channel">
+            <summary>
+            Channel motorController is currently reading on
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Syntrol.Robot.Controller.Motor.UID">
+            <summary>
+            Unique Idnetifier for the motorController 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Syntrol.Robot.Controller.Motor.GrpcObject">
+            <summary>
+            Temporary for holding the place of the grpc object defining this
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Syntrol.Robot.Robot">
+            <summary>
+            Base object that contains unique info for simulation
+            </summary>
+        </member>
+        <member name="M:Syntrol.Robot.Robot.#ctor(System.String)">
+            <summary>
+            New Robot Object creates new comm instance 
+            </summary>
+            <param name="uuid"></param>
+        </member>
+        <member name="T:Syntrol.Robot.State">
+            <summary>
+            State is the collection of current hardware values for robot
+            </summary>
+        </member>
+        <member name="T:Syntrol.Syntrol">
+            <summary>
+            Parent Object
+            </summary>
+        </member>
+        <member name="T:Syntrol.World.World">
+            <summary>
+            World Object for accessing world data
+            </summary>
+            <remarks>
+            Like field element positions etc
+            mostly for machine learning
+            </remarks>
+        </member>
+    </members>
+</doc>
