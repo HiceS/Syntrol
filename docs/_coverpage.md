@@ -6,6 +6,5 @@
 - .Net Standard
 - ML Integration
 
-[Getting Started](#/readme.md)
-[GitHub](https://github.com/HiceS/Syntrol)
+[Getting Started](#/README.md)
 [Synthesis](https://synthesis.autodesk.com/)
