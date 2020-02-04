@@ -1,7 +1,9 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syntrol", "Syntrol.csproj", "{7E869293-0614-482C-A962-2F97E2719F90}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syntrol", "Syntrol\Syntrol.csproj", "{880EA4DA-4CC2-4475-BEFF-991F8FFE8B5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,9 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7E869293-0614-482C-A962-2F97E2719F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7E869293-0614-482C-A962-2F97E2719F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7E869293-0614-482C-A962-2F97E2719F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7E869293-0614-482C-A962-2F97E2719F90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{880EA4DA-4CC2-4475-BEFF-991F8FFE8B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{880EA4DA-4CC2-4475-BEFF-991F8FFE8B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{880EA4DA-4CC2-4475-BEFF-991F8FFE8B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{880EA4DA-4CC2-4475-BEFF-991F8FFE8B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E7FFC1C-7C2A-4517-AD35-F45384C7CACE}
 	EndGlobalSection
 EndGlobal
