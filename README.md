@@ -5,3 +5,5 @@ Will be built originally for .net to support the new ML.net libs.
 ## Docs
 
 Docs coming soon to show the layout of the API
+
+Docs should be accessible at https://emulator-api.github.io
